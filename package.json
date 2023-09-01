@@ -1,18 +1,24 @@
 {
-  "name": "lab",
+  "name": "labo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fascinating sentence",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+	"docs:build": "vuepress build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WimDejonghe/lab.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "@vuepress/plugin-container": "^2.0.0-beta.67",
-    "@vuepress/plugin-register-components": "^2.0.0-beta.67",
+  "bugs": {
+    "url": "https://github.com/WimDejonghe/lab/issues"
+  },
+  "homepage": "https://github.com/WimDejonghe/lab#readme",
+  "dependencies": {
     "vuepress": "^2.0.0-beta.67"
   }
 }
