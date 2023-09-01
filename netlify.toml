@@ -13,4 +13,4 @@
   publish = "/src/.vuepress/dist"
 
   # Default build command.
-  command = "npm run build"
+  command = "npm run docs:build"
